@@ -23,9 +23,12 @@ using namespace std;
 
 int main()
 {
-	int totalCustomers = 16500;
+	int totalCustomers;
 	double energyDrinkPercentage = 0.15;
 	double citrusDrinkPercentage = 0.58;
+	cout << "Enter the number of customers surveyed: ";
+		cin >> totalCustomers;
+
 
 	int energyDrinkCustomers = totalCustomers * energyDrinkPercentage;
 	int citrusDrinkCustomers = energyDrinkCustomers * citrusDrinkPercentage;
